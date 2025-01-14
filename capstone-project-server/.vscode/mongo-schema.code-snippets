@@ -1,0 +1,21 @@
+{
+	"Storybook": {
+		"prefix": ["msch"],
+		"body": [
+			"import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';",
+			"import { HydratedDocument } from 'mongoose';",
+			"",
+			"export type ${1:$TM_FILENAME_BASE}Document = HydratedDocument<${1:$TM_FILENAME_BASE}>;",
+			"",
+			"@Schema({ timestamps: true })",
+			"export class ${1:$TM_FILENAME_BASE} {",
+			"	@Prop()",
+			"	",
+			"",
+			"}",
+			"",
+			"export const ${1:$TM_FILENAME_BASE}Schema = SchemaFactory.createForClass(${1:$TM_FILENAME_BASE});"
+		],
+		"description": "Storybook Code Snippet"
+	}
+}

@@ -1,0 +1,8 @@
+export const APP_PORT = 'APP_PORT';
+export const ENV_MODE = 'ENV_MODE';
+export const API_BASE_URL = 'API_BASE_URL';
+export const MONGO_CONNECTION_STRING = 'MONGO_CONNECTION_STRING';
+export const CLIENT_BASE_URL = 'CLIENT_BASE_URL';
+export const ACCESS_TOKEN_SECRET = 'ACCESS_TOKEN_SECRET';
+export const REFRESH_TOKEN_SECRET = 'REFRESH_TOKEN_SECRET';
+export const ML_BASE_URL = 'ML_BASE_URL';

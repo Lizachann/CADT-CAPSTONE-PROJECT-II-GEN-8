@@ -1,0 +1,39 @@
+name: Building project
+
+on:
+  push:
+    branches: ["dev", "master", "staging"]
+  pull_request:
+    branches: ["dev", "master", "staging"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Installing Dependencies
+        run:
+          yarn
+
+      - name: Building project (dev)
+        run:
+          yarn build:dev
+
+      - name: Building project (staging)
+        run:
+          yarn build:staging
+
+      - name: Building project (prod)
+        run:
+          yarn build:prod

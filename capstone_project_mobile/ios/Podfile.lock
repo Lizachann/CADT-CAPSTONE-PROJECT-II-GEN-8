@@ -1,0 +1,94 @@
+PODS:
+  - Flutter (1.0.0)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - Stripe (23.28.1):
+    - StripeApplePay (= 23.28.1)
+    - StripeCore (= 23.28.1)
+    - StripePayments (= 23.28.1)
+    - StripePaymentsUI (= 23.28.1)
+    - StripeUICore (= 23.28.1)
+  - stripe_ios (0.0.1):
+    - Flutter
+    - Stripe (~> 23.28.0)
+    - StripeApplePay (~> 23.28.0)
+    - StripeFinancialConnections (~> 23.28.0)
+    - StripePayments (~> 23.28.0)
+    - StripePaymentSheet (~> 23.28.0)
+    - StripePaymentsUI (~> 23.28.0)
+  - StripeApplePay (23.28.1):
+    - StripeCore (= 23.28.1)
+  - StripeCore (23.28.1)
+  - StripeFinancialConnections (23.28.1):
+    - StripeCore (= 23.28.1)
+    - StripeUICore (= 23.28.1)
+  - StripePayments (23.28.1):
+    - StripeCore (= 23.28.1)
+    - StripePayments/Stripe3DS2 (= 23.28.1)
+  - StripePayments/Stripe3DS2 (23.28.1):
+    - StripeCore (= 23.28.1)
+  - StripePaymentSheet (23.28.1):
+    - StripeApplePay (= 23.28.1)
+    - StripeCore (= 23.28.1)
+    - StripePayments (= 23.28.1)
+    - StripePaymentsUI (= 23.28.1)
+  - StripePaymentsUI (23.28.1):
+    - StripeCore (= 23.28.1)
+    - StripePayments (= 23.28.1)
+    - StripeUICore (= 23.28.1)
+  - StripeUICore (23.28.1):
+    - StripeCore (= 23.28.1)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripeFinancialConnections
+    - StripePayments
+    - StripePaymentSheet
+    - StripePaymentsUI
+    - StripeUICore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
+  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
+  Stripe: 20e24971647daa5750e7764faa1e8aefe4917243
+  stripe_ios: 91946e5c07e0a0dc0e1484ee6659e1f90a302cf3
+  StripeApplePay: 5b098a0ba6136f4b587e03f5a3776461b4f20dd4
+  StripeCore: 880a68482cf78d4745c5213c2fd3446efc73574b
+  StripeFinancialConnections: 49a19ca17dbb3055a8b559a1e3adfe769784a8f8
+  StripePayments: 3af5b03fa1831c301a4d1621eb0e790280dccb46
+  StripePaymentSheet: 8321efebb6d104add8fce929286d414545913114
+  StripePaymentsUI: 4c35e12ebcd4bd9bd21e379f03f730bee097250d
+  StripeUICore: 22b314dc9f7ea8814d0f9eeba0ddb5e4b77f34f3
+  url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
+
+PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5
+
+COCOAPODS: 1.15.2
