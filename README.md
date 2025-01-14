@@ -1,8 +1,10 @@
 # CADT-CAPSTONE-PROJECT-II
 
-# Mental Health Application
-
 This is our final Capstone 2 Project.
+
+# “Chhantek” : Mental health Application
+
+A mental health app with features like stress monitoring, therapist booking, activities, and motivational quotes. 
 
 ## Advisor
 
