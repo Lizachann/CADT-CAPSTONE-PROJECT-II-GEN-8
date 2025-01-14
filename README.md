@@ -10,12 +10,12 @@ Mr. Ang Mengchhuong
 
 ## Contributors
 
+- Chan Liza
+- John Liza
+- Kong Rattanakpanha
 - Khoun Sovansunchhay
 - Em Ormrethrethtihpong
-- Kong Rattanakpanha
 - Vicheanon Norakpichit
-- John Liza
-- Chan Liza
 
 ## Run this project
 
